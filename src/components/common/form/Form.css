@@ -1,0 +1,48 @@
+.control-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  margin: 1rem;
+}
+
+.form-control input {
+  margin-left: 1rem;
+}
+
+button {
+  font: inherit;
+  background-color: #655c7a;
+  color: white;
+  border: 1px solid #240370;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+}
+.radio-button-label {
+  font-size: small;
+}
+
+button:hover {
+  background-color: #3f3a4b;
+}
+
+.form-actions {
+  text-align: left;
+}
+
+.form-actions button {
+  margin-left: 1rem;
+}
+
+.salary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.currency {
+  height: 1.5rem;
+}
